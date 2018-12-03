@@ -1,3 +1,18 @@
+/* 6400*800 長12個*高5個 總共60個作品 * 533x160/ */
+
+.theWall{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr) ;
+  grid-template-rows: repeat(5, 1fr) ;
+
+}
+.poster {}
+
+.poster img{
+  width: 100%;
+  display: block;
+}
+
 .App {
   text-align: center;
 }
